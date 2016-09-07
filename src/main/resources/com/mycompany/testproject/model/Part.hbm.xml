@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 06.09.2016 1:52:05 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.mycompany.testproject.model.Part" table="part" schema="public" optimistic-lock="version">
+        <id name="name" type="string">
+            <column name="name" length="80" />
+            <generator class="assigned" />
+        </id>
+        <property name="number" type="string">
+            <column name="number" length="80" />
+        </property>
+        <property name="vendor" type="string">
+            <column name="vendor" length="80" />
+        </property>
+        <property name="qty" type="java.lang.Integer">
+            <column name="qty" />
+        </property>
+        <property name="shipped" type="date">
+            <column name="shipped" length="13" />
+        </property>
+        <property name="receive" type="date">
+            <column name="receive" length="13" />
+        </property>
+    </class>
+</hibernate-mapping>

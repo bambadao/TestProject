@@ -1,0 +1,31 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 80%;
+}
+th {
+    font-weight: 400;
+    background: #e5e5e5;
+    text-align: left;
+}
+tr {
+    border: 1px solid #ccc;
+}
+.lc {
+    color: #999999;
+}
+.st {
+    font-weight: 600;
+    color: #999999;
+}
+.button {
+    background-color: #999999;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;                
+}
